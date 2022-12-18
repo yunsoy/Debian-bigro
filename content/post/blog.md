@@ -12,7 +12,6 @@ draft: false
 下载git，生成密钥对连接github    
 sudo apt install git  
 ssh-keygen -t rsa -C "email"  
-![图1](/images/图片1.png)  
 ![图2](/images/图片2.png)  
 ![图3](/images/图片3.png)  
 查看并使用生成的公钥连接远程仓库    
