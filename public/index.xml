@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://192.168.52.131/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Dec 2022 16:49:01 +0800</lastBuildDate><atom:link href="http://192.168.52.131/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>http://192.168.52.131/post/blog/</link>
+      <pubDate>Wed, 14 Dec 2022 16:49:01 +0800</pubDate>
+      
+      <guid>http://192.168.52.131/post/blog/</guid>
+      <description>Linux BigProject Complete the Steps (1) 下载git，生成密钥对连接github sudo apt install git
+ssh-keygen -t rsa -C &amp;ldquo;email&amp;rdquo;
+查看并使用生成的公钥连接远程仓库
+(2) 用soket创建编写sever.cpp与client.cpp并进行编译 (3) 下载hugo sudo apt install hugo 创建站点mylog hugo new site mylog 在themes中下载主题,并按照官方文档进行配置 git clone https:// 试运行 hugo server -t angels-ladder（主题名)
+正式运行 hugo sever &amp;ndash;bind=0.0.0.0 &amp;ndash;baseUrl=网址 </description>
+    </item>
+    
+  </channel>
+</rss>

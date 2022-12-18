@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  
+  <meta charset="UTF-8">
+  <title>
+    Blog | My New Hugo Site
+  </title>
+
+
+  
+  <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
+
+  
+  <link rel="canonical" href="http://192.168.52.131/post/blog/"/>
+
+  
+  <link rel="stylesheet" href="/css/sanitize.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/highlight_monokai.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  
+  
+  <link href="http://192.168.52.131/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+  <link href="http://192.168.52.131/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" />
+
+  
+  
+
+
+</head>
+
+
+
+<body>
+<div class="container">
+
+  
+  <header role="banner">
+    <div class="row gutters">
+      <div id="site-title" class="col span_6">
+        <h1><a href="http://192.168.52.131/">My New Hugo Site</a></h1>
+        
+      </div>
+      <div id="social" class="col span_6">
+        <ul>
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  
+  <main id="single" role="main">
+    <div class="article-header">
+      <h1>Blog</h1>
+      <div class="meta">
+        Dec 14, 2022 &nbsp;
+        
+      </div>
+    </div>
+    <article>
+      <h1 id="linux-bigproject">Linux BigProject</h1>
+<h2 id="complete-the-steps">Complete the Steps</h2>
+<h3 id="1">(1)</h3>
+<p>下载git，生成密钥对连接github <br>
+sudo apt install git<br>
+ssh-keygen -t rsa -C &ldquo;email&rdquo;<br>
+<img src="/images/%E5%9B%BE%E7%89%872.png" alt="图2"><br>
+<img src="/images/%E5%9B%BE%E7%89%873.png" alt="图3"><br>
+查看并使用生成的公钥连接远程仓库</p>
+<h3 id="2">(2)</h3>
+<p>用soket创建编写sever.cpp与client.cpp并进行编译 <br>
+<img src="/images/%E5%9B%BE%E7%89%8711.png" alt="图11">
+<img src="/images/%E5%9B%BE%E7%89%8712.png" alt="图12"><br>
+<img src="/images/%E5%9B%BE%E7%89%8713.png" alt="图13">
+<img src="/images/%E5%9B%BE%E7%89%8714.png" alt="图14">
+<img src="/images/%E5%9B%BE%E7%89%8715.png" alt="图15"><br>
+<img src="/images/%E5%9B%BE%E7%89%8716.png" alt="图16"> <br>
+<img src="/images/%E5%9B%BE%E7%89%874.png" alt="图4"><br>
+<img src="/images/%E5%9B%BE%E7%89%875.png" alt="图5"></p>
+<h3 id="3">(3)</h3>
+<p>下载hugo <br>
+sudo apt install hugo
+<img src="/images/%E5%9B%BE%E7%89%876.png" alt="图6"></p>
+<p>创建站点mylog <br>
+hugo new site mylog
+<img src="/images/%E5%9B%BE%E7%89%877.png" alt="图7"></p>
+<p>在themes中下载主题,并按照官方文档进行配置 <br>
+git clone https:// <br>
+<img src="/images/%E5%9B%BE%E7%89%878.png" alt="图8"></p>
+<p>试运行 <br>
+hugo server -t angels-ladder（主题名)</p>
+<p>正式运行 <br>
+hugo sever &ndash;bind=0.0.0.0 &ndash;baseUrl=网址
+<img src="/images/%E5%9B%BE%E7%89%879.png" alt="图9">
+<img src="/images/%E5%9B%BE%E7%89%8710.png" alt="图10"></p>
+
+      
+      
+      
+    </article>
+    
+
+
+  </main>
+  
+  <nav class="pagination-single">
+    
+    
+  </nav>
+
+
+  
+  <footer role="contentinfo">
+    <div style="text-align:center;">
+      
+      
+    </div>
+  </footer>
+
+
+</div>
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+</body>
+</html>
+
